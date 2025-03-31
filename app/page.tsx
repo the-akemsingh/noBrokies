@@ -4,9 +4,9 @@ import { motion } from "motion/react";
 import { Cinzel_Decorative } from 'next/font/google'
 
 const cinzel = Cinzel_Decorative({
-  // subsets: ['latin'],
+  subsets: ['latin'],
   weight: '900',
-  // variable: '--font-cinzel',
+  variable: '--font-cinzel',
 })
 
 export default function Home() {
